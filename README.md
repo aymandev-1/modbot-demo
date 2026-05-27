@@ -132,4 +132,4 @@ MIT License — feel free to use, modify, and distribute.
 
 ---
 
-**Built by [aymandev](https://github.com/aymandev-1)**
+**Built by [aymandev-1](https://github.com/aymandev-1)**
