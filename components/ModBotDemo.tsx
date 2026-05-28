@@ -263,7 +263,9 @@ export default function ModBotDemo() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="#"
+                href="https://discord.com/oauth2/authorize?client_id=1509282945725235480"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg glow-primary hover:bg-primary/90 transition-all duration-300"
               >
                 <ExternalLink className="w-4 h-4" />
