@@ -2,6 +2,7 @@ import json
 import os
 import time
 from collections import defaultdict
+from datetime import timedelta
 from typing import Optional
 
 import discord
@@ -102,7 +103,7 @@ class AutoMod(commands.Cog):
                 self.message_tracker[uid].clear()
                 try:
                     await message.author.timeout(
-                        discord.utils.utcnow().replace(second=0) - discord.utils.utcnow() + __import__("datetime").timedelta(minutes=5),
+                        timedelta(minutes=5),
                         reason="Auto-mod: spam detected",
                     )
                 except Exception:
