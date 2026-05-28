@@ -132,4 +132,15 @@ MIT License — feel free to use, modify, and distribute.
 
 ---
 
+## 🔗 More Projects
+
+Check out my other projects:
+
+| Project | Description |
+|---------|-------------|
+| [flask-api](https://github.com/aymandev-1/flask-api) | Flask API project |
+| [scrape-kit](https://github.com/aymandev-1/scrape-kit) | Web scraping toolkit |
+
+---
+
 **Built by [aymandev-1](https://github.com/aymandev-1)**
